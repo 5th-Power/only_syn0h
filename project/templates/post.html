@@ -1,0 +1,12 @@
+<!doctype html>
+<html>
+<head><title>업로드</title></head>
+<body>
+  <h1>새 게시물 올리기</h1>
+  <form action="/upload" method="post" enctype="multipart/form-data">
+    <input type="text" name="title" placeholder="제목"><br>
+    <input type="file" name="photos" multiple><br>
+    <button type="submit">올리기</button>
+  </form>
+</body>
+</html>
