@@ -1,0 +1,12 @@
+<!doctype html>
+<html>
+<head><title>프로필 설정</title></head>
+<body>
+  <h1>프로필 편집</h1>
+  <form method="post">
+    <input type="text" name="nickname" placeholder="닉네임" value="{{ profile.nickname if profile else '' }}"><br>
+    <textarea name="bio" placeholder="자기소개">{{ profile.bio if profile else '' }}</textarea><br>
+    <button type="submit">저장</button>
+  </form>
+</body>
+</html>

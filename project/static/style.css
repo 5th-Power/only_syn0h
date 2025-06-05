@@ -1,0 +1,16 @@
+body {
+  font-family: 'Pretendard', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
+  background-color: #fffefc;
+  color: #333;
+  line-height: 1.5;
+}
+
+h1, h2 {
+  font-weight: 600;
+  color: #111;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 8px;
+}
