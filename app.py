@@ -109,4 +109,4 @@ def uploaded_file(filename):
     
 if __name__ == '__main__':
     print("🔥 Flask 서버 실행 중...")
-    app.run(debug=True)
+    app.run(debug=False, host='0.0.0.0', port=25565)
